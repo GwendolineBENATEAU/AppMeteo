@@ -25,9 +25,9 @@
 
 <body>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-sm-6 my-3">
-                <form>
+        <div class="row d-flex flex-column">
+            <div class="my-5 row justify-content-center">
+                <form class="w-75">
                     <div class="form-group">
                         <input type="text" class="form-control" id="inputCity">
                     </div>
@@ -37,12 +37,14 @@
                 </form>
             </div>
 
-            <div class="col-12 col-sm-6 d-flex justify-content-center my-3">
-                <div class="box-container">
-                    <div id="city" class="box"></div>
-                    <div id="temp" class="box"></div>
-                    <div id="humidity" class="box"></div>
-                    <div id="wind" class="box"></div>
+            <div class="my-5">
+                <div class="row justify-content-center">
+                    <div id="city" class="d-flex flex-column justify-content-center align-items-center"></div>
+                    <div id="temp" class="d-flex flex-column justify-content-center align-items-center"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div id="humidity" class="d-flex flex-column justify-content-center align-items-center"></div>
+                    <div id="wind" class="d-flex flex-column justify-content-center align-items-center"></div>
                 </div>
             </div>
         </div>
